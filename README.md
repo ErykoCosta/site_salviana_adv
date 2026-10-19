@@ -15,7 +15,8 @@
 - **Endereço:** Rua Antonio Agu, nº 209, Sala 102, Centro - Osasco/SP, CEP: 06.093-000
 - **WhatsApp / Telefone:** [+55 (11) 99594-6161](https://wa.me/5511995946161)
 - **E-mail de Contato:** [salvianainseg@gmail.com](mailto:salvianainseg@gmail.com)
-- **Domínio Previsto:** `www.advsalvianalima.com.br`
+- **Instagram:** [@inseg.solutions](https://www.instagram.com/inseg.solutions/)
+- **Domínio Oficial (Registro.br):** `www.salvianalima.com.br` / `salvianalima.com.br`
 
 ---
 
@@ -49,7 +50,7 @@
 
 ---
 
-## 🚀 Publicação no Vercel (vercel.com)
+## 🚀 Publicação no Vercel (vercel.com) & Configuração no Registro.br
 
 Esta landing page é 100% estática e otimizada, já incluindo o arquivo `vercel.json` pré-configurado com clean URLs e headers de segurança HTTP.
 
@@ -61,10 +62,18 @@ Esta landing page é 100% estática e otimizada, já incluindo o arquivo `vercel
 4. Em **Framework Preset**, deixe como **"Other"**.
 5. Clique em **"Deploy"**.
 6. Em poucos segundos seu site estará online na URL gerada pela Vercel!
-7. **Para conectar o seu domínio próprio:**
-   - No painel do projeto na Vercel, acesse **Settings** &rarr; **Domains**.
-   - Adicione `advsalvianalima.com.br` e `www.advsalvianalima.com.br`.
-   - No painel do [registro.br](https://registro.br), aponte os registros DNS (tipo A e CNAME) conforme instruído pela Vercel.
+
+### Como conectar seu domínio `salvianalima.com.br` (Registro.br):
+
+1. No painel do seu projeto na Vercel, acesse **Settings** &rarr; **Domains**.
+2. Adicione os dois domínios:
+   - `salvianalima.com.br`
+   - `www.salvianalima.com.br`
+3. A Vercel exibirá os registros DNS recomendados:
+   - **Tipo A:** Nome `@` apontando para o IP da Vercel: `76.76.21.21`
+   - **Tipo CNAME:** Nome `www` apontando para: `cname.vercel-dns.com`
+4. Acesse o painel do [registro.br](https://registro.br), selecione o domínio `salvianalima.com.br`, clique em **DNS** &rarr; **Configurar Endereçamento / Editar Zona** e insira os dois apontamentos acima.
+5. Em instantes a Vercel emitirá automaticamente o certificado SSL (HTTPS) gratuito para o seu domínio!
 
 ---
 
