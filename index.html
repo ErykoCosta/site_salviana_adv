@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Salviana Lima | Advocacia e Consultoria Jurídica - OAB/SP 519.390</title>
+    <meta name="description" content="Dra. Salviana Lima da Silva (OAB/SP 519.390), 16 anos de experiência. Especialista em Isenção e Restituição de IRPF por Doenças Graves para Aposentados, Pensionistas e Militares Reformados.">
+    <meta name="author" content="Dra. Salviana Lima da Silva">
+    <link rel="canonical" href="https://www.advsalvianalima.com.br/">
+    
+    <!-- Open Graph / Meta Compartilhamento -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.advsalvianalima.com.br/">
+    <meta property="og:title" content="Dra. Salviana Lima | Advocacia Tributária & Previdenciária">
+    <meta property="og:description" content="16 anos de experiência. Isenção de IRPF para Aposentados, Pensionistas e Militares com Doença Grave. Fale diretamente pelo WhatsApp.">
+    <meta property="og:image" content="logo Inseg.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#1E1B18',        // Marrom Charcoal nobre
+                        darker: '#141210',      // Fundo escuro profundo
+                        gold: '#B88B60',        // Dourado/Areia clássico
+                        goldHover: '#A37A53',   // Dourado escurecido hover
+                        light: '#F4F1E9',       // Off-white aconchegante
+                        lightGray: '#E5E1D8',   // Borda suave
+                        accent: '#2B2621'       // Card contrast
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Estilos Customizados -->
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F4F1E9; color: #1E1B18; }
+        h1, h2, h3, h4, .font-serif { font-family: 'Playfair Display', serif; }
+        
+        .glass-header {
+            background: rgba(30, 27, 24, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .accordion-content {
+            transition: max-height 0.35s ease-out, opacity 0.3s ease-out, padding 0.3s ease;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+        }
+
+        .accordion-content.active {
+            max-height: 520px;
+            opacity: 1;
+            padding-bottom: 1.5rem;
+        }
+
+        /* Float WhatsApp */
+        .float-whatsapp {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 28px;
+            right: 28px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 4px 18px rgba(37, 211, 102, 0.4);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .float-whatsapp:hover {
+            transform: scale(1.1) translateY(-2px);
+            box-shadow: 0 6px 24px rgba(37, 211, 102, 0.55);
+        }
+
+        .badge-gold {
+            background: linear-gradient(135deg, rgba(184, 139, 96, 0.15) 0%, rgba(184, 139, 96, 0.05) 100%);
+            border: 1px solid rgba(184, 139, 96, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed w-full top-0 z-50 glass-header border-b border-white/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logotipo / Identidade -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="flex items-center gap-3 group">
+                        <img class="h-12 w-12 rounded-full border border-gold/40 group-hover:border-gold transition-colors object-cover bg-white shadow-sm" src="logo Inseg.jpg" alt="Logo Inseg Solutions">
+                        <div class="flex flex-col">
+                            <span class="font-serif text-lg font-bold tracking-wider text-white group-hover:text-gold transition-colors leading-tight">
+                                DRA. SALVIANA LIMA
+                            </span>
+                            <span class="text-[11px] tracking-widest text-gold font-medium uppercase">
+                                Advocacia &bull; OAB/SP 519.390
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex space-x-7">
+                    <a href="#sobre" class="text-gray-300 hover:text-gold transition-colors font-medium text-sm tracking-wide">A ADVOGADA</a>
+                    <a href="#atuacao" class="text-gray-300 hover:text-gold transition-colors font-medium text-sm tracking-wide">ATUAÇÃO</a>
+                    <a href="#doencas" class="text-gray-300 hover:text-gold transition-colors font-medium text-sm tracking-wide">QUEM TEM DIREITO</a>
+                    <a href="#comofunciona" class="text-gray-300 hover:text-gold transition-colors font-medium text-sm tracking-wide">COMO FUNCIONA</a>
+                    <a href="#faq" class="text-gray-300 hover:text-gold transition-colors font-medium text-sm tracking-wide">FAQ</a>
+                </nav>
+
+                <!-- CTA Button Desktop -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Gostaria%20de%20uma%20análise%20gratuita%20sobre%20a%20isenção%20de%20IRPF." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       onclick="trackContactClick()" 
+                       class="bg-gold hover:bg-goldHover text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-lg shadow-gold/25 flex items-center gap-2 text-sm tracking-wide hover:-translate-y-0.5">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                        <span>Falar com a Dra. Salviana</span>
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="flex lg:hidden items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none p-2" aria-label="Abrir Menu">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-dark border-t border-white/10 absolute w-full shadow-2xl">
+            <div class="px-4 pt-3 pb-6 space-y-2">
+                <a href="#sobre" class="block px-3 py-2.5 text-base font-medium text-gray-300 hover:text-gold hover:bg-white/5 rounded-md">A Advogada</a>
+                <a href="#atuacao" class="block px-3 py-2.5 text-base font-medium text-gray-300 hover:text-gold hover:bg-white/5 rounded-md">Atuação</a>
+                <a href="#doencas" class="block px-3 py-2.5 text-base font-medium text-gray-300 hover:text-gold hover:bg-white/5 rounded-md">Quem tem Direito</a>
+                <a href="#comofunciona" class="block px-3 py-2.5 text-base font-medium text-gray-300 hover:text-gold hover:bg-white/5 rounded-md">Como Funciona</a>
+                <a href="#faq" class="block px-3 py-2.5 text-base font-medium text-gray-300 hover:text-gold hover:bg-white/5 rounded-md">FAQ</a>
+                
+                <div class="pt-2">
+                    <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Gostaria%20de%20uma%20análise%20gratuita%20sobre%20a%20isenção%20de%20IRPF." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="w-full text-center bg-gold hover:bg-goldHover text-white px-4 py-3 rounded-xl font-medium flex items-center justify-center gap-2 shadow-md">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>Falar no WhatsApp (11) 99594-6161</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-dark text-white">
+        <!-- Background Pattern & Gradient -->
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-dark/70 to-dark"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Credential Pills -->
+            <div class="inline-flex flex-wrap items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 text-gold text-xs sm:text-sm font-medium mb-8 backdrop-blur-sm">
+                <span class="flex items-center gap-1.5">
+                    <i data-lucide="award" class="w-4 h-4 text-gold"></i>
+                    <span>16 Anos de Experiência</span>
+                </span>
+                <span class="text-white/30 hidden sm:inline">&bull;</span>
+                <span class="flex items-center gap-1.5">
+                    <i data-lucide="scale" class="w-4 h-4 text-gold"></i>
+                    <span>Dra. Salviana Lima &bull; OAB/SP 519.390</span>
+                </span>
+                <span class="text-white/30 hidden sm:inline">&bull;</span>
+                <span class="text-gray-300">Inseg Solutions</span>
+            </div>
+            
+            <h1 class="text-3xl sm:text-5xl lg:text-7xl font-bold font-serif leading-tight mb-6 max-w-4xl mx-auto">
+                Você pode estar pagando <span class="text-gold">Imposto de Renda</span> indevidamente.
+            </h1>
+            
+            <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed font-light">
+                Aposentados, pensionistas e militares reformados diagnosticados com doenças graves têm direito legal à <strong>isenção vitalícia de IRPF</strong> e à <strong>restituição corrigida</strong> dos últimos 5 anos descontados.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
+                <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Gostaria%20de%20saber%20se%20tenho%20direito%20à%20isenção%20do%20IRPF." 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   onclick="trackContactClick()" 
+                   class="w-full sm:w-auto bg-gold hover:bg-goldHover text-white text-base sm:text-lg px-8 py-4 rounded-full font-medium transition-all shadow-xl shadow-gold/25 flex items-center justify-center gap-2 group hover:-translate-y-0.5">
+                    <span>Descobrir se Tenho Direito</span>
+                    <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                </a>
+                
+                <div class="flex items-center gap-2 text-sm text-gray-300">
+                    <i data-lucide="shield-check" class="w-5 h-5 text-gold"></i>
+                    <span>Análise confidencial, rápida e sem custo</span>
+                </div>
+            </div>
+
+            <!-- Destaques Rápidos -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-white/10 text-left">
+                <div class="p-3">
+                    <span class="block text-2xl lg:text-3xl font-serif font-bold text-gold">16 Anos</span>
+                    <span class="text-xs text-gray-400">De sólida experiência jurídica</span>
+                </div>
+                <div class="p-3">
+                    <span class="block text-2xl lg:text-3xl font-serif font-bold text-gold">Até 5 Anos</span>
+                    <span class="text-xs text-gray-400">De devolução retroativa</span>
+                </div>
+                <div class="p-3">
+                    <span class="block text-2xl lg:text-3xl font-serif font-bold text-gold">100% Online</span>
+                    <span class="text-xs text-gray-400">Atendimento em todo o Brasil</span>
+                </div>
+                <div class="p-3">
+                    <span class="block text-2xl lg:text-3xl font-serif font-bold text-gold">OAB/SP</span>
+                    <span class="text-xs text-gray-400">Inscrição nº 519.390</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Dra. Salviana Lima (Autoridade Jurídica) -->
+    <section id="sobre" class="py-20 lg:py-28 bg-white border-b border-lightGray">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                <!-- Card Visual de Autoridade -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <!-- Moldura Decorativa -->
+                        <div class="absolute -inset-3 bg-gradient-to-r from-gold/30 to-gold/10 rounded-3xl blur-lg opacity-70"></div>
+                        <div class="relative bg-dark rounded-2xl p-8 text-white shadow-2xl border border-gold/30">
+                            <div class="flex items-center gap-4 mb-6 pb-6 border-b border-white/10">
+                                <div class="w-16 h-16 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center text-gold">
+                                    <i data-lucide="scale" class="w-8 h-8"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-serif font-bold text-white leading-tight">Dra. Salviana Lima</h3>
+                                    <p class="text-gold text-xs font-semibold tracking-wider uppercase mt-0.5">OAB/SP 519.390</p>
+                                    <p class="text-gray-400 text-xs mt-0.5">Lima da Silva Soc. Individual de Advocacia</p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-4 text-sm text-gray-300">
+                                <div class="flex items-start gap-3">
+                                    <i data-lucide="check" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                                    <span><strong>16 anos de experiência</strong> prática em direito e consultoria tributária.</span>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <i data-lucide="check" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                                    <span>Proprietária e fundadora do escritório <strong>Inseg Solutions</strong>.</span>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <i data-lucide="check" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                                    <span>Atuação especializada nos direitos de <strong>aposentados, pensionistas e militares reformados</strong>.</span>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <i data-lucide="check" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                                    <span>Compromisso estrito com a ética profissional e o <strong>Provimento 205/2021 da OAB</strong>.</span>
+                                </div>
+                            </div>
+
+                            <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                                <span>Osasco - SP</span>
+                                <span class="text-gold font-medium">Atendimento Nacional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo Textual -->
+                <div class="lg:col-span-7">
+                    <span class="text-gold font-semibold tracking-wider text-sm uppercase">Advocacia com Propósito e Rigor Técnico</span>
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-dark mt-2 mb-6">
+                        Conheça a Dra. Salviana Lima da Silva
+                    </h2>
+                    <div class="w-20 h-1 bg-gold rounded-full mb-8"></div>
+
+                    <p class="text-gray-700 text-base sm:text-lg leading-relaxed mb-5">
+                        Com <strong>16 anos de sólida experiência jurídica</strong>, a <strong>Dra. Salviana Lima da Silva (OAB/SP 519.390)</strong>, à frente da <em>Lima da Silva Sociedade Individual de Advocacia</em> e fundadora da <em>Inseg Solutions</em>, dedica-se a assegurar a justiça fiscal e a dignidade patrimonial de seus clientes.
+                    </p>
+
+                    <p class="text-gray-600 text-base leading-relaxed mb-6">
+                        Muitos aposentados, pensionistas e militares continuam tendo parcelas substanciais retidas no contracheque por desconhecerem que a legislação federal (Lei nº 7.713/88) lhes assegura isenção integral diante do diagnóstico de doenças graves. Nossa missão é conduzir esse processo de forma estratégica, rápida e segura, desde a obtenção da isenção definitiva até o resgate de todos os valores retidos indevidamente nos últimos 5 anos.
+                    </p>
+
+                    <!-- Selos de Credibilidade -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 mb-8">
+                        <div class="p-4 rounded-xl bg-light border border-lightGray">
+                            <h4 class="font-bold text-dark flex items-center gap-2 text-sm">
+                                <i data-lucide="user-check" class="w-4 h-4 text-gold"></i> Atendimento Humanizado
+                            </h4>
+                            <p class="text-xs text-gray-600 mt-1">
+                                Análise detalhada de cada prontuário e laudo médico com total empatia e clareza.
+                            </p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-light border border-lightGray">
+                            <h4 class="font-bold text-dark flex items-center gap-2 text-sm">
+                                <i data-lucide="shield" class="w-4 h-4 text-gold"></i> Segurança Jurídica
+                            </h4>
+                            <p class="text-xs text-gray-600 mt-1">
+                                Condução amparada nas melhores teses do Superior Tribunal de Justiça (STJ).
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Gostaria%20de%20conversar%20sobre%20o%20meu%20caso." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 bg-dark hover:bg-darker text-white px-7 py-3.5 rounded-full font-medium transition-all shadow-md group text-sm">
+                        <span>Falar Diretamente com a Dra. Salviana</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 text-gold group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossa Atuação -->
+    <section id="atuacao" class="py-24 bg-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold font-semibold tracking-wider text-sm uppercase">Especialidades do Escritório</span>
+                <h2 class="text-3xl md:text-4xl font-bold font-serif text-dark mt-2">Nossa Atuação</h2>
+                <div class="w-20 h-1 bg-gold mx-auto mt-6 rounded-full"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-4 text-sm sm:text-base">
+                    Atuação jurídica e tributária voltada para a defesa dos direitos individuais e a proteção do seu patrimônio.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-lightGray hover:shadow-xl hover:-translate-y-1 transition-all group">
+                    <div class="w-14 h-14 bg-light rounded-xl flex items-center justify-center mb-6 group-hover:bg-gold/15 transition-colors">
+                        <i data-lucide="file-text" class="w-7 h-7 text-gold"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Isenção de IRPF por Doença Grave</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Destinada a aposentados e pensionistas do INSS, servidores públicos federais, estaduais e municipais. Cesse o desconto e viva com mais tranquilidade.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-lightGray hover:shadow-xl hover:-translate-y-1 transition-all group">
+                    <div class="w-14 h-14 bg-light rounded-xl flex items-center justify-center mb-6 group-hover:bg-gold/15 transition-colors">
+                        <i data-lucide="shield" class="w-7 h-7 text-gold"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Militares Reformados</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Atendimento especializado para militares reformados das Forças Armadas e forças auxiliares que possuem direito à isenção por moléstia grave.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-lightGray hover:shadow-xl hover:-translate-y-1 transition-all group">
+                    <div class="w-14 h-14 bg-light rounded-xl flex items-center justify-center mb-6 group-hover:bg-gold/15 transition-colors">
+                        <i data-lucide="car" class="w-7 h-7 text-gold"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Isenção de IPVA para PCD</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Garantimos o reconhecimento formal da isenção de IPVA em veículos para pessoas com deficiência ou condições limitantes, de forma ágil e segura.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-lightGray hover:shadow-xl hover:-translate-y-1 transition-all group">
+                    <div class="w-14 h-14 bg-light rounded-xl flex items-center justify-center mb-6 group-hover:bg-gold/15 transition-colors">
+                        <i data-lucide="pie-chart" class="w-7 h-7 text-gold"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Recuperação Tributária</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Cálculo preciso e ação para reaver todos os valores de Imposto de Renda pagos indevidamente nos últimos 5 anos, acrescidos de juros e correção monetária.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quem Tem Direito (Lista de Doenças Graves) -->
+    <section id="doencas" class="py-24 bg-white border-y border-lightGray">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-1/2">
+                    <span class="text-gold font-semibold tracking-wider text-sm uppercase">Critérios Legais (Lei 7.713/88)</span>
+                    <h2 class="text-3xl md:text-4xl font-bold font-serif text-dark mt-2 mb-6">Você possui alguma destas condições?</h2>
+                    <p class="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed">
+                        Se você é aposentado(a), pensionista ou militar reformado(a) e tem — ou já teve no passado — o diagnóstico comprovado de alguma das enfermidades previstas em lei, você possui direito à isenção.
+                    </p>
+
+                    <div class="bg-light p-6 rounded-2xl border border-lightGray mb-8 flex items-start gap-4 shadow-sm">
+                        <div class="w-10 h-10 rounded-full bg-gold/15 flex items-center justify-center flex-shrink-0 text-gold mt-1">
+                            <i data-lucide="alert-triangle" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark text-base">Importante Saber!</h4>
+                            <p class="text-sm text-gray-700 mt-1 leading-relaxed">
+                                A isenção é válida <strong>mesmo que a doença tenha surgido após a concessão da aposentadoria ou reforma</strong>, e mesmo que os sintomas estejam controlados ou em fase de remissão (conforme entendimento pacificado do STJ, Súmula 627).
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Tenho%20uma%20dessas%20doenças%20e%20gostaria%20de%20saber%20como%20pedir%20minha%20isenção." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 bg-gold hover:bg-goldHover text-white px-6 py-3.5 rounded-full font-medium transition-all shadow-md text-sm">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                        <span>Consultar Meu Diagnóstico com a Dra. Salviana</span>
+                    </a>
+                </div>
+
+                <div class="lg:w-1/2 w-full">
+                    <div class="bg-light p-8 rounded-3xl border border-lightGray shadow-sm">
+                        <h3 class="font-serif text-xl font-bold text-dark mb-6 flex items-center gap-2">
+                            <i data-lucide="clipboard-check" class="w-5 h-5 text-gold"></i>
+                            Rol Exemplificativo de Enfermidades:
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Neoplasia Maligna (Câncer - mesmo curado)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Cardiopatia Grave (Infarto, Ponte, etc.)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Doença de Parkinson</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Nefropatia Grave (Doença Renal)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Hepatopatia Grave (Fígado)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Esclerose Múltipla</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Alienação Mental (Alzheimer, etc.)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Cegueira (Inclusive Monocular)</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Paralisia Irreversível e Incapacitante</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">HIV / AIDS</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Espondiloartrose Anquilosante</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-2.5 rounded-lg bg-white border border-lightGray/80">
+                                <i data-lucide="check-circle-2" class="text-gold w-5 h-5 flex-shrink-0"></i>
+                                <span class="text-gray-800 text-sm font-medium">Acidente em Serviço / Moléstia Profissional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restituição Callout -->
+    <section class="bg-dark text-white py-20 relative overflow-hidden">
+        <div class="absolute right-0 bottom-0 opacity-10 w-96 h-96 translate-x-1/3 translate-y-1/3 pointer-events-none">
+            <i data-lucide="coins" class="w-full h-full"></i>
+        </div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/20 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-wider mb-6">
+                <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+                Restituição Retroativa
+            </div>
+            
+            <h2 class="text-3xl md:text-5xl font-bold font-serif mb-6 text-gold">
+                O dinheiro descontado indevidamente pode voltar para você.
+            </h2>
+            
+            <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed font-light">
+                O benefício da isenção não se limita aos pagamentos futuros. A legislação e a jurisprudência permitem requerer a <strong>devolução de todos os valores retidos nos últimos 5 anos</strong>, atualizados monetariamente pela taxa SELIC.
+            </p>
+
+            <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Gostaria%20de%20fazer%20o%20cálculo%20estimado%20da%20minha%20restituição%20de%205%20anos." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 bg-gold hover:bg-goldHover text-white px-8 py-4 rounded-full font-medium transition-all shadow-xl shadow-gold/25 text-base hover:-translate-y-0.5">
+                <i data-lucide="calculator" class="w-5 h-5"></i>
+                <span>Simular Meu Valor a Restituir</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Como Funciona o Processo -->
+    <section id="comofunciona" class="py-24 bg-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold font-semibold tracking-wider text-sm uppercase">Simplicidade & Segurança</span>
+                <h2 class="text-3xl md:text-4xl font-bold font-serif text-dark mt-2">Como Funciona o Atendimento</h2>
+                <div class="w-20 h-1 bg-gold mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <!-- Linha conectora desktop -->
+                <div class="hidden md:block absolute top-12 left-[12%] right-[12%] h-0.5 bg-lightGray z-0"></div>
+
+                <!-- Passo 1 -->
+                <div class="relative z-10 flex flex-col items-center text-center">
+                    <div class="w-24 h-24 bg-white rounded-full border-4 border-lightGray flex items-center justify-center mb-6 text-gold shadow-md">
+                        <i data-lucide="message-square" class="w-10 h-10"></i>
+                    </div>
+                    <span class="text-xs font-bold text-gold uppercase tracking-wider mb-1">Etapa 1</span>
+                    <h4 class="font-bold text-xl text-dark mb-2">Contato Inicial</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Envie uma mensagem pelo WhatsApp. Realizamos uma análise preliminar gratuita do seu perfil e enquadramento.
+                    </p>
+                </div>
+
+                <!-- Passo 2 -->
+                <div class="relative z-10 flex flex-col items-center text-center">
+                    <div class="w-24 h-24 bg-white rounded-full border-4 border-lightGray flex items-center justify-center mb-6 text-gold shadow-md">
+                        <i data-lucide="folder-open" class="w-10 h-10"></i>
+                    </div>
+                    <span class="text-xs font-bold text-gold uppercase tracking-wider mb-1">Etapa 2</span>
+                    <h4 class="font-bold text-xl text-dark mb-2">Conferência Documental</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        A Dra. Salviana avalia seus laudos, relatórios médicos e comprovantes de proventos para fundamentar o pedido.
+                    </p>
+                </div>
+
+                <!-- Passo 3 -->
+                <div class="relative z-10 flex flex-col items-center text-center">
+                    <div class="w-24 h-24 bg-white rounded-full border-4 border-lightGray flex items-center justify-center mb-6 text-gold shadow-md">
+                        <i data-lucide="scale" class="w-10 h-10"></i>
+                    </div>
+                    <span class="text-xs font-bold text-gold uppercase tracking-wider mb-1">Etapa 3</span>
+                    <h4 class="font-bold text-xl text-dark mb-2">Atuação Jurídica</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Ingressamos com o pedido administrativo ou judicial mais célere e adequado para a suspensão imediata dos descontos.
+                    </p>
+                </div>
+
+                <!-- Passo 4 -->
+                <div class="relative z-10 flex flex-col items-center text-center">
+                    <div class="w-24 h-24 bg-gold rounded-full border-4 border-gold/30 flex items-center justify-center mb-6 text-white shadow-xl shadow-gold/20">
+                        <i data-lucide="wallet" class="w-10 h-10"></i>
+                    </div>
+                    <span class="text-xs font-bold text-white/90 uppercase tracking-wider mb-1">Etapa 4</span>
+                    <h4 class="font-bold text-xl text-dark mb-2">Restituição & Isenção</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Salário ou aposentadoria integral sem o desconto do IRPF e os valores retroativos depositados em sua conta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ (Perguntas Frequentes) -->
+    <section id="faq" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold font-semibold tracking-wider text-sm uppercase">Tire Suas Dúvidas</span>
+                <h2 class="text-3xl md:text-4xl font-bold font-serif text-dark mt-2">Perguntas Frequentes</h2>
+                <div class="w-20 h-1 bg-gold mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Item 1 -->
+                <div class="border border-lightGray rounded-2xl overflow-hidden bg-light transition-colors hover:border-gold/50 shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-dark pr-6 text-base sm:text-lg">A doença precisa ter sido a causa da minha aposentadoria?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold transform transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                        <p class="pb-4">
+                            <strong>Não.</strong> A legislação e os tribunais superiores garantem o direito à isenção mesmo que a enfermidade tenha sido diagnosticada muitos anos após a concessão da aposentadoria ou reforma. <a href="https://wa.me/5511995946161" target="_blank" class="text-gold font-bold hover:underline">Fale com a Dra. Salviana</a> para analisarmos o seu caso.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="border border-lightGray rounded-2xl overflow-hidden bg-light transition-colors hover:border-gold/50 shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-dark pr-6 text-base sm:text-lg">O câncer já está curado ou sob controle. Ainda tenho direito?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold transform transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                        <p class="pb-4">
+                            <strong>Sim.</strong> O Superior Tribunal de Justiça (STJ), por meio da Súmula 627, pacificou o entendimento de que a isenção de IRPF independe da contemporaneidade dos sintomas ou da reincidência da doença, uma vez que o tratamento e o monitoramento acarretam despesas contínuas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="border border-lightGray rounded-2xl overflow-hidden bg-light transition-colors hover:border-gold/50 shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-dark pr-6 text-base sm:text-lg">Sou militar reformado. A lei também me concede isenção?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold transform transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                        <p class="pb-4">
+                            <strong>Sim.</strong> Militares reformados das Forças Armadas (Exército, Marinha, Aeronáutica) e das forças auxiliares (Polícia Militar e Corpo de Bombeiros) enquadram-se expressamente na Lei 7.713/88 e têm direito à suspensão do tributo e à restituição dos valores retroativos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="border border-lightGray rounded-2xl overflow-hidden bg-light transition-colors hover:border-gold/50 shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-dark pr-6 text-base sm:text-lg">Quanto tempo demora para cessar o desconto no holerite?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold transform transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                        <p class="pb-4">
+                            Em vias judiciais, é possível pleitear um pedido de <strong>tutela de urgência (liminar)</strong> para que a fonte pagadora (INSS ou órgão pagador) cesse imediatamente a retenção do imposto, antes mesmo do julgamento final da ação.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="border border-lightGray rounded-2xl overflow-hidden bg-light transition-colors hover:border-gold/50 shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-dark pr-6 text-base sm:text-lg">Moro em outro Estado. Posso ser atendido pela Dra. Salviana?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold transform transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div class="accordion-content px-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                        <p class="pb-4">
+                            <strong>Com certeza.</strong> Hoje os processos judiciais e administrativos em todo o Brasil tramitam de forma 100% eletrônica. O atendimento é feito com agilidade e total segurança via WhatsApp, telefone ou videoconferência, bem como presencialmente em Osasco/SP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Completo com Dados da Empresa e OAB -->
+    <footer class="bg-darker pt-20 pb-10 border-t border-white/10 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
+                <!-- Branding & Apresentação -->
+                <div class="md:col-span-5">
+                    <a href="#" class="flex items-center gap-3 mb-6">
+                        <img class="h-14 w-14 rounded-full border border-gold/40 object-cover bg-white shadow-md" src="logo Inseg.jpg" alt="Logo Inseg Solutions">
+                        <div>
+                            <span class="font-serif text-xl font-bold tracking-wider text-white block">DRA. SALVIANA LIMA</span>
+                            <span class="text-xs text-gold tracking-widest uppercase font-medium">OAB/SP 519.390 &bull; 16 Anos de Experiência</span>
+                        </div>
+                    </a>
+                    
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4 max-w-sm">
+                        <strong>Lima da Silva Sociedade Individual de Advocacia</strong> (CNPJ 68.711.171/0001-62).<br>
+                        Escritório proprietário da marca <strong>Inseg Solutions</strong>. Atuação jurídica e tributária com responsabilidade, ética e excelência para pessoas físicas em todo o Brasil.
+                    </p>
+
+                    <div class="flex items-center gap-3 text-xs text-gray-400">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-gold"></i>
+                        <span>Atuação em estrita conformidade com as normas da OAB.</span>
+                    </div>
+                </div>
+
+                <!-- Navegação -->
+                <div class="md:col-span-3">
+                    <h4 class="text-white font-bold mb-6 tracking-wide uppercase text-sm border-b border-white/10 pb-2">Navegação</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a href="#sobre" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> A Advogada</a></li>
+                        <li><a href="#atuacao" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Nossa Atuação</a></li>
+                        <li><a href="#doencas" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Quem Tem Direito</a></li>
+                        <li><a href="#comofunciona" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Como Funciona</a></li>
+                        <li><a href="#faq" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Perguntas Frequentes</a></li>
+                        <li><a href="privacidade.html" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Política de Privacidade</a></li>
+                        <li><a href="termos.html" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gold"></i> Termos de Uso</a></li>
+                    </ul>
+                </div>
+
+                <!-- Informações Cadastrais e Contato (PDF Anexo) -->
+                <div class="md:col-span-4">
+                    <h4 class="text-white font-bold mb-6 tracking-wide uppercase text-sm border-b border-white/10 pb-2">Informações Cadastrais</h4>
+                    <ul class="space-y-3.5 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="building-2" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                            <div>
+                                <span class="text-white font-medium block">Razão Social:</span>
+                                <span>Lima da Silva Sociedade Individual de Advocacia</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="file-badge" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                            <div>
+                                <span class="text-white font-medium block">CNPJ / OAB:</span>
+                                <span>CNPJ: 68.711.171/0001-62</span><br>
+                                <span>Dra. Salviana Lima da Silva - OAB/SP 519.390</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                            <address class="not-italic leading-relaxed">
+                                Rua Antonio Agu, 209, Sala 102, Centro<br>
+                                Osasco - SP &bull; CEP: 06.093-000<br>
+                                <span class="text-gold text-xs">Atendimento presencial e online em todo o Brasil.</span>
+                            </address>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="message-circle" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                            <div>
+                                <span class="text-white font-medium block">WhatsApp / Atendimento:</span>
+                                <a href="https://wa.me/5511995946161" target="_blank" rel="noopener noreferrer" class="text-gold font-bold hover:underline">
+                                    +55 (11) 99594-6161
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
+                            <div>
+                                <span class="text-white font-medium block">E-mail:</span>
+                                <a href="mailto:salvianainseg@gmail.com" class="hover:text-gold transition-colors">salvianainseg@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Direitos e Observações Legais -->
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+                <div class="text-center md:text-left">
+                    <p>&copy; 2026 Lima da Silva Sociedade Individual de Advocacia - CNPJ 68.711.171/0001-62. Todos os direitos reservados.</p>
+                    <p class="mt-2 text-gray-400">
+                        Dra. Salviana Lima da Silva &bull; OAB/SP 519.390 &bull; Inseg Solutions &bull;
+                        <a href="privacidade.html" class="hover:text-gold transition-colors underline ml-1">Privacidade</a>
+                        &middot;
+                        <a href="termos.html" class="hover:text-gold transition-colors underline">Termos</a>
+                    </p>
+                </div>
+                <p class="text-center md:text-right max-w-xl text-gray-400 leading-relaxed">
+                    Este site tem caráter exclusivamente informativo. A atuação jurídica da Dra. Salviana Lima segue rigorosamente as diretrizes éticas da Ordem dos Advogados do Brasil (OAB) e o Provimento nº 205/2021 do CFOAB.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5511995946161?text=Olá,%20Dra.%20Salviana!%20Acessei%20o%20seu%20site%20e%20gostaria%20de%20orientação%20jurídica." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="float-whatsapp" 
+       aria-label="Falar no WhatsApp com a Dra. Salviana Lima"
+       onclick="trackContactClick()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.1-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Inicializar ícones Lucide
+        lucide.createIcons();
+
+        // Efeito de rolagem na Navbar
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 15) {
+                header.classList.add('shadow-lg');
+                header.classList.replace('border-white/10', 'border-transparent');
+            } else {
+                header.classList.remove('shadow-lg');
+                header.classList.replace('border-transparent', 'border-white/10');
+            }
+        });
+
+        // Alternância do Menu Mobile
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Fechar menu mobile ao clicar em um link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Accordion (FAQ interativo)
+        const accordionBtns = document.querySelectorAll('.accordion-btn');
+        accordionBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('svg');
+                const isOpen = content.classList.contains('active');
+
+                // Fecha todos os outros accordions
+                accordionBtns.forEach(otherBtn => {
+                    if (otherBtn !== this) {
+                        otherBtn.nextElementSibling.classList.remove('active');
+                        otherBtn.setAttribute('aria-expanded', 'false');
+                        const otherIcon = otherBtn.querySelector('svg');
+                        if (otherIcon) {
+                            otherIcon.classList.remove('rotate-180');
+                        }
+                    }
+                });
+
+                // Alterna o accordion atual
+                if (isOpen) {
+                    content.classList.remove('active');
+                    this.setAttribute('aria-expanded', 'false');
+                    if (icon) icon.classList.remove('rotate-180');
+                } else {
+                    content.classList.add('active');
+                    this.setAttribute('aria-expanded', 'true');
+                    if (icon) icon.classList.add('rotate-180');
+                }
+            });
+        });
+
+        // Rastreamento de conversão (Meta Pixel / Analytics)
+        function trackContactClick() {
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+                fbq('track', 'Lead');
+            }
+        }
+    </script>
+</body>
+</html>
