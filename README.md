@@ -14,7 +14,7 @@
 - **CNPJ:** 68.711.171/0001-62
 - **Endereço:** Rua Antonio Agu, nº 209, Sala 102, Centro - Osasco/SP, CEP: 06.093-000
 - **WhatsApp / Telefone:** [+55 (11) 99594-6161](https://wa.me/5511995946161)
-- **E-mail de Contato:** [salvianainseg@gmail.com](mailto:salvianainseg@gmail.com)
+- **E-mail de Contato:** [escritorioinseg@gmail.com](mailto:escritorioinseg@gmail.com)
 - **Instagram:** [@inseg.solutions](https://www.instagram.com/inseg.solutions/)
 - **Domínio Oficial (Registro.br):** `www.salvianalima.com.br` / `salvianalima.com.br`
 
