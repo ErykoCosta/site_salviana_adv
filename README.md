@@ -1,6 +1,6 @@
 # Dra. Salviana Lima - Advocacia & Consultoria Jurídica
 
-> **Landing Page Institucional e Tributária** desenvolvida para a **Dra. Salviana Lima da Silva** (OAB/SP 519.390), com 16 anos de experiência jurídica, titular da **Lima da Silva Sociedade Individual de Advocacia** e proprietária do escritório **Inseg Solutions**.
+> **Landing Page Institucional e Tributária** desenvolvida para a **Dra. Salviana Lima da Silva** (OAB/SP 519.390), com 16 anos de experiência jurídica, titular da **Lima da Silva Sociedade Individual de Advocacia** (**Lima da Silva Advocacia**).
 
 ---
 
@@ -10,12 +10,12 @@
 - **Inscrição OAB:** OAB/SP 519.390
 - **Experiência Profissional:** 16 anos de atuação jurídica
 - **Razão Social:** Lima da Silva Sociedade Individual de Advocacia
-- **Marca/Escritório:** Inseg Solutions
+- **Nome Fantasia / Marca:** Lima da Silva Advocacia
 - **CNPJ:** 68.711.171/0001-62
 - **Endereço:** Rua Antonio Agu, nº 209, Sala 102, Centro - Osasco/SP, CEP: 06.093-000
 - **WhatsApp / Telefone:** [+55 (11) 99594-6161](https://wa.me/5511995946161)
-- **E-mail de Contato:** [escritorioinseg@gmail.com](mailto:escritorioinseg@gmail.com)
-- **Instagram:** [@inseg.solutions](https://www.instagram.com/inseg.solutions/)
+- **E-mail de Contato:** [advocaciaseguros.lima@gmail.com](mailto:advocaciaseguros.lima@gmail.com)
+- **Instagram:** [@salvianalima.adv](https://www.instagram.com/salvianalima.adv/?hl=pt-br)
 - **Domínio Oficial (Registro.br):** `www.salvianalima.com.br` / `salvianalima.com.br`
 
 ---
@@ -87,6 +87,6 @@ site_salviana_adv/
 ├── termos.html         # Termos de Uso do site
 ├── vercel.json         # Configuração de deploy da Vercel
 ├── README.md           # Documentação técnica do projeto
-├── logo Inseg.jpg      # Logotipo institucional
+├── logo.jpg            # Logotipo institucional (Lima da Silva Advocacia)
 └── *.pdf               # Materiais de apoio e informativos
 ```
